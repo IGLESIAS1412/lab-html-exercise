@@ -91,7 +91,45 @@ nav a {
     color: gray;
     margin-left: 7;
   }
+  .Build-section{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    height: 600px;
+    background-color: rgba(232,217,217,.3);
+    text-align: center;
+    justify-content: center;
     
+    
+  } 
+  .Build-section h1 {
+    width: 800;
+    font-size:  60;
+    
+    
+  }
+  .Build-section article{
+    width: 500;
+    font-size: 20;
+    margin-bottom: 30;
+  }
+  .Build-section a:nth-child(1){
+    background-color: #FB3B49;
+    box-shadow:8px 8px 0 rgba(251,59,73,.2);
+    color: white;
+    text-decoration: none;
+    padding: 20;
+    display:inline-block;
+    width: 150;
+  }
+  .Build-section a:nth-child(2){
+    color: gray;
+    text-decoration: none;
+    padding: 20;
+    display:inline-block;
+    width: 150;
+  }
+
   
   
   /* Puedes agregar más estilos según tus necesidades */
