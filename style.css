@@ -91,7 +91,7 @@ nav a {
     color: gray;
     margin-left: 7;
   }
-  .Build-section{
+  .section1{
     display: flex;
     align-items:center;
     flex-direction: column;
@@ -102,18 +102,18 @@ nav a {
     
     
   } 
-  .Build-section h1 {
+  .section1 h1 {
     width: 800;
     font-size:  60;
     
     
   }
-  .Build-section article{
+  .section1 article{
     width: 500;
     font-size: 20;
     margin-bottom: 30;
   }
-  .Build-section a:nth-child(1){
+  .section1 a:nth-child(1){
     background-color: #FB3B49;
     box-shadow:8px 8px 0 rgba(251,59,73,.2);
     color: white;
@@ -122,14 +122,88 @@ nav a {
     display:inline-block;
     width: 150;
   }
-  .Build-section a:nth-child(2){
+  .section1 a:nth-child(2){
     color: gray;
     text-decoration: none;
     padding: 20;
     display:inline-block;
     width: 150;
+    
   }
-
+  .section2{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    height: 600px;
+    background-color: rgba(232,217,217,.3);
+    text-align: center;
+    justify-content: center;
+    
+  }
+  .triangleHexagon{
+    height: 200;
+  }
+  .section2 h1{
+    padding: 20;
+    font-size: 30;
+    
+  }
+  .section2 article{
+    border: 1 solid #ccc;
+    font-style: italic;
+    transform: skew(9deg,0deg);
+    font-size: 15;
+    margin-bottom: 30;
+    width: 660;
+  }
+  .section3{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-end;
+      align-content: center;
+      background-color: rgba(232,217,217,.3);
+      flex-wrap: wrap;
+    
+  }
+  .section3 #zero{
+    border: 6px solid #ED1C24;
+    padding: 10;
+    margin-left: 10;
+    height: 300;
+    width: 200;
+    margin-bottom: 20;
+    
+    
+  }
+  .zero{
+    height: 30;
+  }
+  .team{
+    height: 30;
+  }
+  .familiar{
+    height: 30;
+  }
+  .npm{
+    height: 30;
+  }
+  .section3 h1{
+    color: #ED1C24;
+  }
+  .section3 article{
+    font-size: 15;
+  }
+  .section3 a{
+    background-color: black;
+    box-shadow:8px 8px 0 rgba(128,83,35,.2);
+    color: white;
+    text-decoration: none;
+    padding: 20;
+    display:inline-block;
+    text-align: center;
+  }
+  
   
   
   /* Puedes agregar más estilos según tus necesidades */
